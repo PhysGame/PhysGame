@@ -71,6 +71,8 @@ Finally, run:
 bash evaluation/evaluate_physgame.sh
 ```
 The [Leaderboard](https://huggingface.co/datasets/PhysGame/PhysGame-Benchmark)🥇 is also provided on our website. Please [contact us](mailto:2201111746@stu.pku.edu.cn) if anyone wants to be added.
+
+For [Video-ChatGPT](https://github.com/mbzuai-oryx/Video-ChatGPT) and [Video-MME](https://github.com/BradyFU/Video-MME), please follow their repository to collect the data, then run [evaluate_vcgbench.sh](https://github.com/PhysGame/PhysGame/blob/main/evaluation/evaluate_vcgbench.sh) and [evaluate_videomme.sh](https://github.com/PhysGame/PhysGame/blob/main/evaluation/evaluate_videomme.sh).
 ## Data Collection & Training 📂:
 We provide GamePhysics training data [PhysInstruct](https://huggingface.co/datasets/PhysGame/PhysInstruct-40k) and [PhysDPO](https://huggingface.co/datasets/PhysGame/PhysDPO-10k) for SFT and DPO training mixed with general video datasets.
 
