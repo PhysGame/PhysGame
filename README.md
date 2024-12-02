@@ -10,10 +10,13 @@
 [![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](https://huggingface.co/PhysGame)
 [![arXiv](https://img.shields.io/badge/Arxiv-2311.08046-b31b1b.svg?logo=arXiv)](https://)
 [![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](https://github.com/PhysGame/PhysGame/blob/main/LICENSE)
-
-## Benchmark Evaluation :bar_chart:
-To evaluate with our **PhysGame** Benchmark, please following the instructions below
-
+## Latest Updates :loudspeaker:
+* **[2024/12/02]**  Data for training and evaluation are released in our [huggingface repo](https://huggingface.co/PhysGame).🤗
+* **[2024/12/02]**  We release the 7B training weights of [PhysVLM-DPO](https://huggingface.co/PhysGame/PhysVLM-DPO) and [PhysVLM-SFT](https://huggingface.co/PhysGame/PhysVLM-SFT).🔥🔥
+* **[2024/12/02]**  We release PhysGame, which is the first physical commonsense evaluation benchmark based on gameplay videos!🔥🔥
+* **[2024/12/02]**  Code are available now! Welcome to **watch** 👀 this repository for the latest updates.
+## Training & Evaluation :bar_chart:
+To evaluate with our **PhysGame** Benchmark, please follow the instructions below:
 ## Installation 🛠️
 **Note** that Qwen-2 requires torch >= 2.1.2 and LLaVA-Onevision requires transformers >= 4.45
 
