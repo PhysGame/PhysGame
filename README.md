@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-<a target="_blank"><img src="example/PhysGame_logo.png" alt="PhysGame" style="width: 50%; min-width: 150px; display: block; margin: auto;"></a>
+<a target="_blank"><img src="asset/PhysGame_logo.png" alt="PhysGame" style="width: 50%; min-width: 150px; display: block; margin: auto;"></a>
 </p>
 <h2 align="center"> <a href="https://">PhysGame: Uncovering Physical Commonsense Violations in Gameplay Videos</a></h2>
 
@@ -7,14 +7,50 @@
 
 <h5 align=center>
 
+<!-- 
 [![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](https://huggingface.co/PhysGame)
 [![arXiv](https://img.shields.io/badge/Arxiv-2311.08046-b31b1b.svg?logo=arXiv)](https://)
 [![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](https://github.com/PhysGame/PhysGame/blob/main/LICENSE)
+-->
+
+
+<font size=7><div align='center' > [[🍎 Project Page](https://video-mme.github.io/)] [[📖 arXiv Paper](https://arxiv.org/pdf/2405.21075)] [[📊 Dataset](https://github.com/BradyFU/Video-MME?tab=readme-ov-file#-dataset)][[🏆 Leaderboard](https://huggingface.co/PhysGame)]  </div></font>
+
+
 ## Latest Updates :loudspeaker:
 * **[2024/12/02]**  Data for training and evaluation are released in our [huggingface repo](https://huggingface.co/PhysGame).🤗
 * **[2024/12/02]**  We release the 7B training weights of [PhysVLM-DPO](https://huggingface.co/PhysGame/PhysVLM-DPO) and [PhysVLM-SFT](https://huggingface.co/PhysGame/PhysVLM-SFT).🔥🔥
 * **[2024/12/02]**  We release PhysGame, which is the first physical commonsense evaluation benchmark based on gameplay videos!🔥🔥
 * **[2024/12/02]**  Code are available now! Welcome to **watch** 👀 this repository for the latest updates.
+## Overview 👀:
+Even before language acquisition, children start to grasp fundamental physical commonsense by observing the properties of the world around them. However, acquiring such physical commonsense knowledge remains a major challenge for artificial intelligence systems. For real-world videos, it is both _challenging_  and _unnecessary_ to exhaustively cover and interpret allnormal physical phenomena. In contrast, _gameplay videos_ stypically contain glitches that violate physical commonsense. This can simplify the definition and evaluation of the physical commonsense understanding, _i.e._, focusing on interpreting physical commonsense violation rather than trying to enumerate all the existing normal physical phenomena. To this end, we curate a suite of datasets including PhysGame for evaluation, PhysInstruct for supervised fine-tuning, PhysDPO for preference alignment. Based on these datasets, we propose a **Phy**sical knowledge enhanced large **V**ideo **L**anguage **M**odel (PhysVLM for short), which not only demonstrates state-of-the-art performance on PhysGame but also exhibits leading performance on general video understanding benchmarks.
+* **PhysGame:** The PhysGame benchmark consists of **880** gameplay videos containing glitches, each annotated with a high-quality multiple-choice question specifically addressing the nature of the glitch. PhysGame spans four key physical domains (_i.e._, mechanics, kinematics, optics, and material properties), and encompasses 12 fine-grained categories 073 (_e.g._, gravity and velocity).
+
+* **PhysInstruct:** PhysInstruct is an instruction tuning dataset with 140,057 question-answering pairs focusing on physical commonsense understanding.
+
+* **PhysDPO:** PhysDPO is consisted of 34,358 training pairs with both the preferred and dis-preferred responsess for preference optimization.
+
+<p align="center">
+    <img src="./asset/category.jpg" width="50%" height="50%">
+</p>
+
+
+## 📐 PhysGame Benchmark Examples
+<p align="center">
+    <img src="./asset/teaser_data_mechanics.jpg" width="80%" height="80%">
+</p>
+
+<div align='center' >
+<details>
+<summary> Click to expand more examples</summary>
+<p align="center">
+    <img src="./asset/teaser_data_kinematics.jpg" width="80%" height="80%">
+    <img src="./asset/teaser_data_optics.jpg" width="80%" height="80%">
+    <img src="./asset/teaser_data_material.jpg" width="80%" height="80%">
+</details>
+</div>
+
+
 ## Benchmark Evaluation :bar_chart:
 To evaluate with our **PhysGame** Benchmark, please follow the instructions below:
 
