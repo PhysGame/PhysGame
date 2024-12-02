@@ -1,0 +1,1 @@
+torchrun --master_port=33644  --nproc_per_node=8 train_hf.py --cfg-path config/physvlm_interleave_training.yaml

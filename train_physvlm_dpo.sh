@@ -1,0 +1,1 @@
+torchrun --master_port=33345  --nproc_per_node=8 train_dpo.py --cfg-path config/physvlm_dpo_training.yaml
