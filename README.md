@@ -1,7 +1,16 @@
 <p align="center" width="100%">
-<a target="_blank"><img src="example/logo.jpg" alt="PPLLaVA" style="width: 50%; min-width: 150px; display: block; margin: auto;"></a>
+<a target="_blank"><img src="example/PhysGame_logo.png" alt="PhysGame" style="width: 50%; min-width: 150px; display: block; margin: auto;"></a>
 </p>
-<h2 align="center"> <a href="https://">PhysGame:UncoveringPhysicalCommonsenseViolationsinGameplayVideos</a></h2>
+<h2 align="center"> <a href="https://">PhysGame: Uncovering Physical Commonsense Violations in Gameplay Videos</a></h2>
+
+<h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
+
+<h5 align=center>
+
+[![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](https://huggingface.co/PhysGame)
+[![arXiv](https://img.shields.io/badge/Arxiv-2311.08046-b31b1b.svg?logo=arXiv)](https://)
+[![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](https://github.com/PhysGame/PhysGame/blob/main/LICENSE)
+
 
 ## Installation 🛠️
 **Note** that Qwen-2 requires torch >= 2.1.2 and LLaVA-Onevision requires transformers >= 4.45
