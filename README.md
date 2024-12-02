@@ -15,8 +15,27 @@
 * **[2024/12/02]**  We release the 7B training weights of [PhysVLM-DPO](https://huggingface.co/PhysGame/PhysVLM-DPO) and [PhysVLM-SFT](https://huggingface.co/PhysGame/PhysVLM-SFT).🔥🔥
 * **[2024/12/02]**  We release PhysGame, which is the first physical commonsense evaluation benchmark based on gameplay videos!🔥🔥
 * **[2024/12/02]**  Code are available now! Welcome to **watch** 👀 this repository for the latest updates.
-## Training & Evaluation :bar_chart:
+## Benchmark Evaluation :bar_chart:
 To evaluate with our **PhysGame** Benchmark, please follow the instructions below:
+
+First download benchmark videos and annotations from [repo](https://huggingface.co/datasets/PhysGame/PhysGame-Benchmark),
+
+Then modify configurations in [evaluate_physgame.sh](https://github.com/PhysGame/PhysGame/blob/main/evaluation/evaluate_physgame.sh)
+```bash
+--cfg-path config/physvlm_dpo_training.yaml #This depends on the training setting (SFT & DPO)
+--ckpt-path /path/to/checkpoints \
+--data_anno /path/to/PhysGame_880_annotation.json \
+--video_dir /path/to/videos \
+```
+Finally, run:
+```bash
+bash evaluation/evaluate_physgame.sh
+```
+The [Leaderboard](https://huggingface.co/datasets/PhysGame/PhysGame-Benchmark)🥇 is also provided on our website. Please [contact us](mailto:2201111746@stu.pku.edu.cn) if anyone wants to be added.
+## Data Collection & Training 📂:
+We provide GamePhysics training data [PhysInstruct](https://huggingface.co/datasets/PhysGame/PhysInstruct-40k) and [PhysDPO](https://huggingface.co/datasets/PhysGame/PhysDPO-10k) for SFT and DPO training mixed with general video datasets.
+
+For more details, please refer to our [paper](https:) and [DATA_Train.md](https://github.com/PhysGame/PhysGame/blob/main/DATA_Train.md).
 ## Installation 🛠️
 **Note** that Qwen-2 requires torch >= 2.1.2 and LLaVA-Onevision requires transformers >= 4.45
 
