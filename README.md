@@ -11,6 +11,8 @@
 [![arXiv](https://img.shields.io/badge/Arxiv-2311.08046-b31b1b.svg?logo=arXiv)](https://)
 [![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](https://github.com/PhysGame/PhysGame/blob/main/LICENSE)
 
+## Benchmark Evaluation :bar_chart:
+To evaluate with our **PhysGame** Benchmark, please following the instructions below
 
 ## Installation 🛠️
 **Note** that Qwen-2 requires torch >= 2.1.2 and LLaVA-Onevision requires transformers >= 4.45
@@ -36,6 +38,8 @@ You can also run the demo with only text outputs:
 ```
 python demo.py --ckpt-path /path/to/PhysVLM-DPO --gpu-id 0
 ```
+## Acknowledgement 👍
+Our code is built upon [PPLLaVA](https://github.com/farewellthree/PPLLaVA) and [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT), thanks for their excellent works!
 ## Citation ✏️
 If you find the code and paper useful for your research, please consider staring this repo and citing our paper:
 
