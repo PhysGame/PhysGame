@@ -109,10 +109,10 @@ If you find the code and paper useful for your research, please consider staring
 
 ```
 @article{cao2024physgame,
-      title={PhysGame: Uncovering Physical Commonsense Violations in Gameplay Videos}, 
-      author={Cao, Meng and Tang, Haoran and Zhao, Haoze and Guo, Hangyu and Liu, Jiaheng and Zhang, Ge and Liu, Ruyang and Sun, Qiang and Reid, Ian and Liang, Xiaodan},
-      journal={arXiv preprint arXiv:2412.01800},
-      year={2024},
+  title={PhysGame: Uncovering Physical Commonsense Violations in Gameplay Videos}, 
+  author={Cao, Meng and Tang, Haoran and Zhao, Haoze and Guo, Hangyu and Liu, Jiaheng and Zhang, Ge and Liu, Ruyang and Sun, Qiang and Reid, Ian and Liang, Xiaodan},
+  journal={arXiv preprint arXiv:2412.01800},
+  year={2024},
 }
 @article{liu2024ppllava,
   title={PPLLaVA: Varied Video Sequence Understanding With Prompt Guidance},
