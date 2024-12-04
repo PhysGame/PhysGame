@@ -47,8 +47,8 @@ datasets:
 
 run:
   task: interleave_sft
-  bf16: False
-  fp16: True
+  bf16: True
+  fp16: False
   tf32: False
   output_dir: "./physvlm/interleave_sft_output"
   num_train_epochs: 1
