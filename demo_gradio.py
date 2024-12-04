@@ -82,7 +82,7 @@ model_cls = registry.get_model_class(model_config.arch)
 model = model_cls.from_config(model_config)
 model.load_pretrained_weight(args.ckpt_path)
 model = model.to('cuda:{}'.format(args.gpu_id))
-model.to(torch.float16)
+model.to(torch.bfloat16)
 for name, para in model.named_parameters():
     para.requires_grad = False
 model.eval()
