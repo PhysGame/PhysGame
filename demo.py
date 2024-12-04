@@ -76,7 +76,7 @@ model_cls = registry.get_model_class(model_config.arch)
 model = model_cls.from_config(model_config)
 model.load_pretrained_weight(args.ckpt_path)
 model = model.to('cuda:{}'.format(args.gpu_id))
-model.to(torch.float16)
+model.to(torch.bfloat16)
 for name, para in model.named_parameters():
     para.requires_grad = False
 model.eval()
@@ -90,7 +90,7 @@ print('Initialization Finished')
 #             Answer Generation
 # ========================================
 num_frames = 32
-video_path = './example/xbmgbr.mp4'
+video_path = './asset/xbmgbr.mp4'
 prompt = "What violates physical commonsense in this video?"
 img_list = read_video(video_path, num_segments=num_frames)
 chat_state = conv.copy()
