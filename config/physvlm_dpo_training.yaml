@@ -4,7 +4,7 @@ model:
   video_input: 'mean'
   gradient_checkpointing: True
   pooling: clipST_3d
-  clip_weight: /home/thr/code/S3/siglip-so400m-patch14-384
+  clip_weight: google/siglip-so400m-patch14-384
   pooling_kernel: (1,3,3)
   pooling_stride: (1,3,3)
   image_pooling_kernel: (1,3,3)
