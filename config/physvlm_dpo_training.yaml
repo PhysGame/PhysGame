@@ -1,6 +1,6 @@
 model:
   arch: llava_interleave
-  llama_model: /home/thr/code/S3/ppllava_v0/llava-onevision-qwen2-7b-si-hf
+  llama_model: llava-hf/llava-onevision-qwen2-7b-si-hf
   video_input: 'mean'
   gradient_checkpointing: True
   pooling: clipST_3d
