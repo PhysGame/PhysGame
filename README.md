@@ -29,7 +29,7 @@ Even before language acquisition, children start to grasp fundamental physical c
 
 * **PhysInstruct:** PhysInstruct is an instruction tuning dataset with 140,057 question-answering pairs focusing on physical commonsense understanding.
 
-* **PhysDPO:** PhysDPO is consisted of 34,358 training pairs with both the preferred and dis-preferred responsess for preference optimization.
+* **PhysDPO:** PhysDPO is consisted of 34,358 training pairs with both the preferred and dis-preferred responses for preference optimization.
 
 * **PhysVLM:** Based on these datasets, we propose a **Phy**sical knowledge enhanced large **V**ideo **L**anguage **M**odel (PhysVLM for short), which not only demonstrates state-of-the-art performance on PhysGame but also exhibits leading performance on general video understanding benchmarks.
 
