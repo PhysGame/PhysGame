@@ -23,7 +23,7 @@
 * **[2024/12/02]**  We release the 7B training weights of [PhysVLM-DPO](https://huggingface.co/PhysGame/PhysVLM-DPO) and [PhysVLM-SFT](https://huggingface.co/PhysGame/PhysVLM-SFT).🔥🔥
 * **[2024/12/02]**  We release PhysGame, which is the first physical commonsense evaluation benchmark based on gameplay videos!🔥🔥
 * **[2024/12/02]**  Code are available now! Welcome to **watch** 👀 this repository for the latest updates.
-## Overview 👀:
+## Overview 👀
 Even before language acquisition, children start to grasp fundamental physical commonsense by observing the properties of the world around them. However, acquiring such physical commonsense knowledge remains a major challenge for artificial intelligence systems. For real-world videos, it is both _challenging_  and _unnecessary_ to exhaustively cover and interpret all normal physical phenomena. In contrast, _gameplay videos_ typically contain glitches that violate physical commonsense. This can simplify the definition and evaluation of the physical commonsense understanding, _i.e._, focusing on interpreting physical commonsense violation rather than trying to enumerate all the existing normal physical phenomena. To this end, we curate a suite of datasets including PhysGame for evaluation, PhysInstruct for supervised fine-tuning, PhysDPO for preference alignment. 
 * **PhysGame:** The PhysGame benchmark consists of **880** gameplay videos containing glitches, each annotated with a high-quality multiple-choice question specifically addressing the nature of the glitch. PhysGame spans four key physical domains (_i.e._, mechanics, kinematics, optics, and material properties), and encompasses 12 fine-grained categories (_e.g._, gravity and velocity).
 
