@@ -1,1 +1,1 @@
-Instructions for training and data collection is coming soon.
+Instructions for training and data collection please follow [PPLLaVA](https://github.com/farewellthree/PPLLaVA/blob/main/trainval.md).
