@@ -27,14 +27,16 @@
 * **[2024/12/02]**  Code are available now! Welcome to **watch** 👀 this repository for the latest updates.
 ## Overview 👀
 Even before language acquisition, children start to grasp fundamental physical commonsense by observing the properties of the world around them. However, acquiring such physical commonsense knowledge remains a major challenge for artificial intelligence systems. For real-world videos, it is both _challenging_  and _unnecessary_ to exhaustively cover and interpret all normal physical phenomena. In contrast, _gameplay videos_ typically contain glitches that violate physical commonsense. This can simplify the definition and evaluation of the physical commonsense understanding, _i.e._, focusing on interpreting physical commonsense violation rather than trying to enumerate all the existing normal physical phenomena. To this end, we curate a suite of datasets including PhysGame for evaluation, PhysInstruct for supervised fine-tuning, PhysDPO for preference alignment. 
-* **PhysGame:** The PhysGame benchmark consists of **880** gameplay videos containing glitches, each annotated with a high-quality multiple-choice question specifically addressing the nature of the glitch. PhysGame spans four key physical domains (_i.e._, mechanics, kinematics, optics, and material properties), and encompasses 12 fine-grained categories (_e.g._, gravity and velocity).
+* **GameBench:** The PhysGame benchmark consists of **880** gameplay videos containing glitches, each annotated with a high-quality multiple-choice question specifically addressing the nature of the glitch. PhysGame spans four key physical domains (_i.e._, mechanics, kinematics, optics, and material properties), and encompasses 12 fine-grained categories (_e.g._, gravity and velocity).
 
-* **PhysInstruct:** PhysInstruct is an instruction tuning dataset with 140,057 question-answering pairs focusing on physical commonsense understanding.
+* **PhysGame:** PhysGame is an instruction tuning dataset with 140,057 question-answering pairs focusing on physical commonsense understanding.
 
+<!-- 
 * **PhysDPO:** PhysDPO is consisted of 34,358 training pairs with both the preferred and dis-preferred responses for preference optimization.
-
+-->
+<!-- 
 * **PhysVLM:** Based on these datasets, we propose a **Phy**sical knowledge enhanced large **V**ideo **L**anguage **M**odel (PhysVLM for short), which not only demonstrates state-of-the-art performance on PhysGame but also exhibits leading performance on general video understanding benchmarks.
-
+-->
 
 <p align="center">
     <img src="./asset/category.jpg" width="40%" height="40%">
