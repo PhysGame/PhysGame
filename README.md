@@ -22,8 +22,10 @@
 * **[2025/05/16]**  Code for finetuning qwen2-vl/qwen2.5-vl is released, please following [Qwen_sft_script](Qwen2.5-VL-Training/qwen-vl-finetune/scripts/sft_7b.sh)👀🔥
 * **[2024/12/03]**  Project Page and our Leaderboard can be found here!!! [Project Page](https://physgame.github.io/).👀🔥
 * **[2024/12/02]**  Data for training and evaluation are released in our [huggingface repo](https://huggingface.co/PhysGame).🤗
+<!-- 
 * **[2024/12/02]**  We release the 7B training weights of [PhysVLM-DPO](https://huggingface.co/PhysGame/PhysVLM-DPO) and [PhysVLM-SFT](https://huggingface.co/PhysGame/PhysVLM-SFT).🔥🔥
-* **[2024/12/02]**  We release PhysGame, which is the first physical commonsense evaluation benchmark based on gameplay videos!🔥🔥
+-->
+* **[2024/12/02]**  We release GameBench, which is the first physical commonsense evaluation benchmark based on gameplay videos!🔥🔥
 * **[2024/12/02]**  Code are available now! Welcome to **watch** 👀 this repository for the latest updates.
 ## Overview 👀
 Even before language acquisition, children start to grasp fundamental physical commonsense by observing the properties of the world around them. However, acquiring such physical commonsense knowledge remains a major challenge for artificial intelligence systems. For real-world videos, it is both _challenging_  and _unnecessary_ to exhaustively cover and interpret all normal physical phenomena. In contrast, _gameplay videos_ typically contain glitches that violate physical commonsense. This can simplify the definition and evaluation of the physical commonsense understanding, _i.e._, focusing on interpreting physical commonsense violation rather than trying to enumerate all the existing normal physical phenomena. To this end, we curate a suite of datasets including PhysGame for evaluation, PhysInstruct for supervised fine-tuning, PhysDPO for preference alignment. 
