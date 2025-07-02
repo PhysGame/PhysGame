@@ -1,7 +1,7 @@
 <p align="center" width="100%">
 <a target="_blank"><img src="asset/PhysGame_logo.png" alt="PhysGame" style="width: 50%; min-width: 150px; display: block; margin: auto;"></a>
 </p>
-<h2 align="center"> <a href="https://arxiv.org/abs/2412.01800">PhysGame: Uncovering Physical Commonsense Violations in Gameplay Videos</a></h2>
+<h2 align="center"> <a href="https://arxiv.org/abs/2412.01800">Physical World Understanding from Gameplay Videos</a></h2>
 
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 
