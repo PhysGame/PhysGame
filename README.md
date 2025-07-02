@@ -78,7 +78,7 @@ The [Leaderboard]([https://huggingface.co/datasets/PhysGame/PhysGame-Benchmark](
 
 For [Video-ChatGPT](https://github.com/mbzuai-oryx/Video-ChatGPT) and [Video-MME](https://github.com/BradyFU/Video-MME), please follow their repository to collect the data, then run [evaluate_vcgbench.sh](https://github.com/PhysGame/PhysGame/blob/main/evaluation/evaluate_vcgbench.sh) and [evaluate_videomme.sh](https://github.com/PhysGame/PhysGame/blob/main/evaluation/evaluate_videomme.sh).
 ## Data Collection & Training 📂:
-We provide GamePhysics training data [PhysInstruct](https://huggingface.co/datasets/PhysGame/PhysInstruct-40k) and [PhysDPO](https://huggingface.co/datasets/PhysGame/PhysDPO-10k) for SFT and DPO training mixed with general video datasets.
+We provide GamePhysics training data [PhysGame](https://huggingface.co/datasets/PhysGame/PhysInstruct-40k) and [PhysDPO](https://huggingface.co/datasets/PhysGame/PhysDPO-10k) for SFT and DPO training mixed with general video datasets.
 
 For more details, please refer to our [paper](https://arxiv.org/abs/2412.01800) and [DATA_Train.md](https://github.com/PhysGame/PhysGame/blob/main/DATA_Train.md).
 ## Installation 🛠️
