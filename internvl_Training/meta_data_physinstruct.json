@@ -1,0 +1,9 @@
+{
+  "Physinstruct": {
+    "root": "/map-vepfs/caomeng/data/PhysInstruct/videos/PhysInstruct/",
+    "annotation": "/map-vepfs/caomeng/data/PhysInstruct/PhysInstruct_anno_40k_InternVL.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": 38957
+  }
+  }
