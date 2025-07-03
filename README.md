@@ -18,6 +18,7 @@
 -->
 
 ## Latest Updates :loudspeaker:
+* **[2025/07/03]**  Code for finetuning Internvl2.5 is released, please following [Internvl2.5](./internvl_Training)👀🔥
 * **[2025/06/30]**  Evaluation Code for GameBench is released, please follow the config settings of [Qwen2.5-VL](./GameBench-inference).
 * **[2025/05/16]**  Code for finetuning qwen2-vl/qwen2.5-vl is released, please following [Qwen_sft_script](Qwen2.5-VL-Training/qwen-vl-finetune/scripts/sft_7b.sh)👀🔥
 * **[2024/12/03]**  Project Page and our Leaderboard can be found here!!! [Project Page](https://physgame.github.io/).👀🔥
